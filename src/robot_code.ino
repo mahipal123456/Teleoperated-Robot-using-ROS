@@ -14,7 +14,7 @@ const int in4 = 16;
 // Max motor speed
 const int maxSpeed = 255;
 
-// Wi-Fi credentials
+// Wi-Fi credentials(change with yours)
 const char* ssid = "Mahipal";
 const char* password = "12345678";
 
