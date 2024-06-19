@@ -1,6 +1,6 @@
 # Teleoperated Robot using ROS
 
-This project demonstrates the implementation of a teleoperated robot using ROS (Robot Operating System) and an Arduino microcontroller. The robot can be controlled remotely via keyboard commands, leveraging Wi-Fi for communication and ROS for command processing.
+This project demonstrates the implementation of a teleoperated robot using ROS (Robot Operating System) and an Nodemcu microcontroller. The robot can be controlled remotely via keyboard commands, leveraging Wi-Fi for communication and ROS for command processing.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,12 +9,10 @@ This project demonstrates the implementation of a teleoperated robot using ROS (
 - [Software Requirements](#software-requirements)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Code Explanation](#code-explanation)
-- [Contributors](#contributors)
-- [License](#license)
+- [Contributors](#Team)
 
 ## Introduction
-This project aims to control a robot remotely using ROS. The robot moves in different directions based on keyboard inputs. It uses an Arduino microcontroller for hardware control and ROS for communication and command processing.
+This project aims to control a robot remotely using ROS. The robot moves in different directions based on keyboard inputs. It uses an Nodemcu microcontroller for hardware control and ROS for communication and command processing.
 
 ## Features
 - Remote control of robot using ROS.
@@ -22,10 +20,10 @@ This project aims to control a robot remotely using ROS. The robot moves in diff
 - Wi-Fi connectivity for ROS communication.
 
 ## Hardware Requirements
-- Arduino microcontroller (e.g., Arduino Uno)
+- Nodemcu microcontroller (e.g., Nodemcu ESP8266)
 - Motor driver (e.g., L298N)
+- buck convertor
 - DC motors
-- Wi-Fi module (e.g., ESP8266)
 - Power supply
 - Chassis and wheels
 - Connecting wires
@@ -52,15 +50,15 @@ This project aims to control a robot remotely using ROS. The robot moves in diff
 
 3. **ROS Setup:**
    - Install ROS on your computer.
-   - Install the `rosserial` package .
+   - Install the rosserial package .
 ## Usage
 1. Connect to the Wi-Fi network specified in the Arduino code.
 2. Open a terminal and start ROS master:
-   roscore
+   `roscore`
 3. Launch the rosserial server:
-   roslaunch rosserial_server socket.launch
+   `roslaunch rosserial_server socket.launch`
 4. Run the teleop_twist_keyboard node:
-   rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+   `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
 5. Use the keyboard to control the robot.
 
 ## Team
