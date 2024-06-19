@@ -64,8 +64,9 @@ This project aims to control a robot remotely using ROS. The robot moves in diff
 5. Use the keyboard to control the robot.
 
 ## Team
-MAHIPAL KUMAWAT
-Hansraj swami
-Vivek Saharan
-vinod Choudhary
-vishal 
+- MAHIPAL KUMAWAT
+- Hansraj Swami
+- Vivek Saharan
+- Vinod Choudhary
+- Vishal
+
