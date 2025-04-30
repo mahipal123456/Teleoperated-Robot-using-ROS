@@ -61,10 +61,4 @@ This project aims to control a robot remotely using ROS. The robot moves in diff
    `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
 5. Use the keyboard to control the robot.
 
-## Team
-- MAHIPAL KUMAWAT
-- Hansraj Swami
-- Vivek Saharan
-- Vinod Choudhary
-- Vishal
 
